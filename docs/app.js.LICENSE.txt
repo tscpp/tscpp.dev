@@ -1,0 +1,13 @@
+/*!
+ * Knockout JavaScript library v3.5.1
+ * (c) The Knockout.js team - http://knockoutjs.com/
+ * License: MIT (http://www.opensource.org/licenses/mit-license.php)
+ */
+
+/**
+ * @license Knockout.Punches
+ * Enhanced binding syntaxes for Knockout 3+
+ * (c) Michael Best
+ * License: MIT (http://www.opensource.org/licenses/mit-license.php)
+ * Version 0.5.1
+ */
