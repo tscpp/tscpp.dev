@@ -84,13 +84,12 @@ module.exports = (env) => {
 
 		output: {
 			filename: '[name].js',
-			path: path.join(context, 'dist')
+			path: path.join(context, 'docs')
 		},
 
 		devServer: {
-			contentBase: path.join(__dirname, 'dist'),
-			port: 9000,
-			hot: true
+			contentBase: path.join(__dirname, 'docs'),
+			port: 9000
 		},
 
 		plugins: plugins,
