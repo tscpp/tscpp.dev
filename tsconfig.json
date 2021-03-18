@@ -1,0 +1,44 @@
+{
+	"compilerOptions": {
+		// Input
+		"target": "ESNext",
+		"module": "ESNext",
+
+		// Rules
+		"strict": true,
+		"importHelpers": true,
+		"moduleResolution": "node",
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"skipLibCheck": true,
+		"esModuleInterop": true,
+		"resolveJsonModule": true,
+
+		// Output
+		"sourceMap": true,
+		"baseUrl": ".",
+		"jsx": "preserve",
+
+		// Aliases
+		"paths": {
+			"@/*": [
+				"src/*"
+			],
+			"Components/*": [
+				"components/*"
+			],
+			"Views/*": [
+				"views/*"
+			]
+		}
+	},
+	"include": [
+		"src/**/*.ts",
+		"src/**/*.tsx",
+		"tests/**/*.ts",
+		"tests/**/*.tsx"
+	],
+	"exclude": [
+		"node_modules"
+	]
+}

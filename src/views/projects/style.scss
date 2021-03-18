@@ -1,0 +1,35 @@
+.views_projects {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	height: 100vh;
+
+	.projects {
+		display: grid;
+		grid-template-columns: 1fr auto auto 1fr;
+
+		.project {
+			border: 1px solid white;
+			border-bottom: none;
+			width: 25em;
+			margin: 0 auto;
+			text-align: center;
+			padding: 12px;
+			padding-bottom: 28px;
+			box-sizing: border-box;
+
+			&:nth-child(odd) {
+				grid-column: 2;
+			}
+
+			&:nth-child(even) {
+				grid-column: 3;
+				border-left: none;
+			}
+
+			&:last-child, &:nth-last-child(2):not(:nth-child(odd)) {
+				border-bottom: 1px solid white;
+			}
+		}
+	}
+}

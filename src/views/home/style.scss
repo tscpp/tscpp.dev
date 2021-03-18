@@ -1,0 +1,22 @@
+.views_home {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	height: 100vh;
+
+	.content {
+		margin: 0 280px;
+
+		h1, h2 {
+			text-shadow: 0 0 4px white;
+		}
+
+		strong {
+			text-shadow: 0 0 2px white;
+		}
+
+		.desc {
+			max-width: 38em;
+		}
+	}
+}

@@ -1,0 +1,29 @@
+[
+	{
+		"name": "KOLint (knockout-lint)",
+		"description": "Lints knockout views + built-in TypeScript type checker + vs(c/19) extension.",
+		"npm": "https://npmjs.com/package/knockout-lint",
+		"gh": "https://github.com/kolint"
+	},
+	{
+		"name": "ko-prefix-preprocess",
+		"description": "Changes knockout syntax to attribute based name.",
+		"npm": "https://npmjs.com/package/ko-prefix-preprocess",
+		"gh": "https://github.com/tscpp/ko-prefix-preprocess"
+	},
+	{
+		"name": "Node Dependencies",
+		"description": "VSC extension for handling node/npm dependencies.",
+		"gh": "https://github.com/tscpp/node-dependencies"
+	},
+	{
+		"name": "NSwagJs",
+		"description": "JavaScript API for NSwag toolchain.",
+		"npm": "https://npmjs.com/package/nswagjs",
+		"gh": "https://github.com/tscpp/nswagjs"
+	},
+	{
+		"name": "tscpp.dev",
+		"gh": "https://github.com/tscpp/tscpp.dev"
+	}
+]

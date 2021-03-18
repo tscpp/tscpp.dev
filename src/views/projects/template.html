@@ -1,0 +1,16 @@
+<root-back></root-back>
+
+<div class="projects" data-bind="foreach: projects">
+	<div class="project">
+		<p>{{ name }}</p>
+		<!-- ko if: $data.description -->
+		<p>{{ description }}</p>
+		<!-- /ko -->
+		<!-- ko if: $data.gh -->
+		<a href="{{ gh }}">GitHub</a>
+		<!-- /ko -->
+		<!-- ko if: $data.npm -->
+		<a href="{{ npm }}">NPM</a>
+		<!-- /ko -->
+	</div>
+</div>

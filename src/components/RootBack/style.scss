@@ -1,0 +1,31 @@
+.root-back {
+	all: unset;
+	border: 1px solid white;
+	display: block;
+	width: 24px;
+	height: 24px;
+	position: fixed;
+	top: 12px;
+	left: 12px;
+	cursor: pointer;
+
+	.line {
+		position: absolute;
+		display: inline-block;
+		width: 2px;
+		height: 10px;
+		background: white;
+
+		&:nth-child(1) {
+			top: 4px;
+			left: 11px;
+			transform: rotate(45deg);
+		}
+
+		&:nth-child(2) {
+			top: 10px;
+			left: 11px;
+			transform: rotate(-45deg);
+		}
+	}
+}
